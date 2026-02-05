@@ -1,0 +1,12 @@
+{
+  "name": "journal-coach",
+  "private": true,
+  "workspaces": ["server", "ui"],
+  "engines": { "node": "20.19.0" },
+  "scripts": {
+    "dev:server": "npm -w server run dev",
+    "dev:ui": "npm -w ui run dev",
+    "build:server": "npm -w server run build",
+    "build:ui": "npm -w ui run build"
+  }
+}
