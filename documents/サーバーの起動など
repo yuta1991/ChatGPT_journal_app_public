@@ -1,0 +1,10 @@
+必須
+nvm use 20.19.0
+npm -w server run dev
+ngrok http 8787
+
+UI編集後
+npm -w ui run build
+
+MCPインスペクター
+npx @modelcontextprotocol/inspector@latest http://localhost:8787/mcp
